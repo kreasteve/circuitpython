@@ -75,7 +75,7 @@
 #ifdef MICROPY_FF_MKFS_FAT32
 #define FF_MKFS_FAT32   MICROPY_FF_MKFS_FAT32
 #else
-#define FF_MKFS_FAT32   0
+#define FF_MKFS_FAT32   1
 #endif
 /* This option switches off FAT32 support in f_mkfs() */
 
